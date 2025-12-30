@@ -9,6 +9,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello Jenkins'
+                eecho 'this is demo webhook' > fi.txt
             }
         }
 
